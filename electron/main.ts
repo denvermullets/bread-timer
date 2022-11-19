@@ -16,7 +16,6 @@ function createWindow() {
 
   if (app.isPackaged) {
     // 'build/index.html'
-    console.log("directory", __dirname);
     win.loadURL(`file:///${__dirname}/../index.html`);
   } else {
     win.loadURL("http://localhost:3000/index.html");
