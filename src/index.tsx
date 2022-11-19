@@ -4,7 +4,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import customTheme from "./theme";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { CookiesProvider } from "react-cookie";
 
 const root = ReactDOM.createRoot(
@@ -14,9 +14,10 @@ root.render(
   <React.StrictMode>
     <CookiesProvider>
       <ChakraProvider theme={customTheme}>
-        <BrowserRouter>
+        {/* using HashRouter for electron build  */}
+        <HashRouter>
           <App />
-        </BrowserRouter>
+        </HashRouter>
       </ChakraProvider>
     </CookiesProvider>
   </React.StrictMode>
