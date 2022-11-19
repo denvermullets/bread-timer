@@ -19,6 +19,7 @@ function App() {
       <div className={classes.root}>
         <Routes>
           <Route path="/" element={<Timer />} />
+          <Route path="/index.html" element={<Timer />} />
         </Routes>
       </div>
     </AppContainer>
