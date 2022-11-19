@@ -16,6 +16,7 @@ function App() {
 
   return (
     <AppContainer>
+      <div>the app has loaded</div>
       <div className={classes.root}>
         <Routes>
           <Route path="/" element={<Timer />} />
