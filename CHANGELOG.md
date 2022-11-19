@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/denvermullets/bread-timer/compare/v1.0.0...v1.1.0) (2022-11-19)
+
+
+### Features
+
+* **electron:** update router so build file works ([#6](https://github.com/denvermullets/bread-timer/issues/6)) ([3c67c51](https://github.com/denvermullets/bread-timer/commit/3c67c51e3e17d98783d6831d841bfc1935cc5dae))
+
 # 1.0.0 (2022-11-18)
 
 
